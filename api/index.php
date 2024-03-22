@@ -7,6 +7,9 @@ header("Content-Type: application/json");
 
 // Handle the request
 $request = $_SERVER['REQUEST_URI'];
+echo "<pre>";
+print_r($request);
+echo "</pre>";
 
 // Route requests to appropriate actions
 switch ($request) {
